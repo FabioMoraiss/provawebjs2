@@ -60,7 +60,7 @@ function deletarNumero(x, array) {
 function getArrayzinho(array) {
   let arrayString = "";
   for (let i = 0; i < array.length; i++) {
-    arrayString += "\n" + array[i] + "-" + i;
+    arrayString += "\n" + array[i];
   }
   return arrayString;
 }
